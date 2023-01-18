@@ -13,8 +13,6 @@ const Home = () => {
   };
   return (
     <div className="container">
-      <div>
-        {/* <h2 className="title">User Info Form</h2> */}
         <form className="form" onSubmit={handleSubmit}>
           <div className="name-field">
             <label className="name-label" for="name">
@@ -39,12 +37,10 @@ const Home = () => {
             <input type="submit" value="Submit" />
           </div>
         </form>
-      </div>
-      <div className="data-table">
-        <div className="overflow-x-auto">
-          <DataTable />
+        <div className="data_table">
+            <DataTable />
         </div>
-      </div>
+
     </div>
   );
 };
